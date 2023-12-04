@@ -1,0 +1,144 @@
+*{padding:0;
+margin:0;}
+
+body {background-color: #f2f2f2;
+font-family: 'Lora';}
+
+/* H1 TAGS */
+
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'PT Serif', serif; */
+
+/* Main name */
+h1.name {font-size:120px;
+text-align: center;
+text-transform: uppercase;
+word-spacing: -10px;
+line-height: 90px;}
+
+/* Main description */
+h1.description {text-align: center;
+font-size: 80px;
+line-height: 80px;}
+
+/* Random.html title */
+h1.random {font-size:80px;
+text-align: center;
+text-transform: uppercase;}
+
+/* About.html title */
+h1.abt {font-size:80px;
+text-align: center;
+text-transform: uppercase;}
+
+/* Name color */
+c {color: #ca644d;}
+
+/* Paragraph */
+p.aboutm{padding:20px;
+text-align: justify;
+font-size: 18px;;}
+    
+
+/* MAIN LAYOUT */
+
+.container {width: 70%;
+margin-top:4%;
+margin-left:14%;
+border-right:1px solid #424242;
+border-left: 1px solid #424242;}
+
+/* Navbar */
+.nav-item {text-transform: uppercase;
+color:#424242;
+margin:10px;}
+    
+.container-fluid {border-bottom:1px solid #424242;
+padding:20px;
+font-weight: 500;}
+    
+.btn {border:none;
+border-radius: 1px;
+background-color: #ca644d;
+color:#f2f2f2;}
+
+/* PICTURES - Change according to screen size */
+
+.pic1 {width: 200px;
+border: 1px solid #424242;
+opacity: 0.5;
+margin:-3px;
+margin-top:1%;}
+
+.pic2 {width: 200px;
+border: 1px solid #424242;
+opacity: 0.5;
+margin:-3px;
+margin-top:1%;}
+
+.pic3 {width: 200px;
+border: 1px solid #424242;
+opacity: 0.5;
+margin:-3px;
+margin-top:1%;}
+
+.pic4 {width: 200px;
+border: 1px solid #424242;
+opacity: 0.5;
+margin:-3px;
+margin-top:1%;}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width:699px) {
+
+    h1.name {font-size: 55px;
+    line-height: 45px;}
+    
+    h1.description {font-size:20px;
+    line-height: 40px;}
+    
+    h1.random, h1.abt {font-size:55px;
+    line-height: 55px;}
+    
+    .pic3 {display: none;}
+    
+    .nav-item {font-size: 14px;
+        margin:-5px;}
+        
+        .navbar-nav {
+        padding: 10px;
+        margin-bottom:-20px;}
+    
+    }
+    
+    @media screen and (min-width:700px) and (max-width:768px) {
+    
+    h1.name {font-size:100px;
+    line-height: 75px;}
+    
+    h1.description {font-size: 30px;
+    line-height: 50px;}
+    
+    .pic3 {display: none;}
+    
+    .nav-item {font-size: 14px;
+        margin:-5px;}
+        
+        .navbar-nav {margin-top:10px;
+        padding: 10px;
+        margin-bottom:-20px;}
+    
+    }
+    
+    @media screen and (min-width:990px) and (max-width:992px){
+    
+        .nav-item {font-size: 16px;
+            margin:-5px;}
+            
+            .navbar-nav {margin-top:10px;
+            padding: 10px;
+            margin-bottom:-20px;}
+    
+    }
